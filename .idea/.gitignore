@@ -13,3 +13,5 @@
 *.iml
 # Ignore all .iws files
 *.xml
+/index.html
+/script.js
