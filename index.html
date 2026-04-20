@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        html::selection{
+            color: #329e00;
+            background-color:#000000;
+        }
+        *{
+            outline: none;
+            border: none;
+            /* border: 1px red solid; */
+        }
+        body{
+            background-color: #000;
+            color: #24f135;
+            font-family: 'Montserrat', sans-serif;
+            /* font-family: 'Poppins', sans-serif; */
+            display: flex;
+            align-items: start;
+            justify-content:center ;
+            flex-direction: column;
+            /* padding: 150px; */
+        }
+        button{
+            padding: 8px 15px;
+            background-color: rgba(0, 0, 0, 0);
+            color: #ffffff;
+            border-radius:15px;
+            font-size: 16px;
+            transition: all .2s ease-in;
+        }
+        button:hover{
+            box-shadow: 0px 0 25px #2ec73b,0 0 50px #24f135;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="change()"> Change </button>
+    <h1 >Hello Folks</h1>
+    <p id="get">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed, voluptatibus repellat minima voluptas ut laboriosam numquam culpa tempore exercitationem enim hic fugit tempora recusandae suscipit, doloremque officiis aspernatur! Sit quisquam aspernatur expedita doloribus deserunt assumenda nulla? Dolores et asperiores error voluptates cum, ipsam quae veritatis deleniti eum molestiae debitis.</p>
+    <!-- <input type="number" value="10" style="width: 100px;" id="num"> -->
+    <script src="script.js"></script>
+</body>
+</html>
